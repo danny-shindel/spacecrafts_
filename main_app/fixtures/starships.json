@@ -1,0 +1,402 @@
+[
+        {
+            "model": "main_app.Spacecraft",
+            "fields": {
+                "name": "CR90 corvette",
+                "model": "CR90 corvette",
+                "manufacturer": "Corellian Engineering Corporation",
+                "cost_in_credits": 3500000,
+                "length": 150,
+                "max_atmosphering_speed": 950,
+                "crew": 165,
+                "passengers": 600,
+                "cargo_capacity": 3000000,
+                "consumables": "1 year",
+                "hyperdrive_rating": 2.0,
+                "MGLT": 60,
+                "starship_class": "corvette",
+                "color":"https://imgur.com/mwXqqvA.png",
+                "black":"https://imgur.com/Mw4pSRa.png"
+            }
+        },
+        {
+            "model": "main_app.Spacecraft",
+            "fields": { 
+                "name": "Star Destroyer",
+                "model": "Imperial I-class Star Destroyer",
+                "manufacturer": "Kuat Drive Yards",
+                "cost_in_credits": 150000000,
+                "length": 1600,
+                "max_atmosphering_speed": 975,
+                "crew": 47060,
+                "passengers": 1,
+                "cargo_capacity": 36000000,
+                "consumables": "2 years",
+                "hyperdrive_rating": 2.0,
+                "MGLT": 60,
+                "starship_class": "Star Destroyer",
+                "color":"https://imgur.com/Ks76SeP.png",
+                "black":"https://i.imgur.com/EMFD23F.png"
+            }
+        },
+        {
+            "model": "main_app.Spacecraft",
+            "fields": {
+                "name": "Sentinel-class landing craft",
+                "model": "Sentinel-class landing craft",
+                "manufacturer": "Sienar Fleet Systems, Cyngus Spaceworks",
+                "cost_in_credits": 240000,
+                "length": 38,
+                "max_atmosphering_speed": 1000,
+                "crew": 5,
+                "passengers": 75,
+                "cargo_capacity": 180000,
+                "consumables": "1 month",
+                "hyperdrive_rating": 1.0,
+                "MGLT": 70,
+                "starship_class": "landing craft",
+                "color":"https://imgur.com/HQqGYn1.png",
+                "black":"https://i.imgur.com/zIDX8vR.png"
+            }
+        },
+        {
+            "model": "main_app.Spacecraft",
+            "fields": {
+                "name": "Death Star",
+                "model": "DS-1 Orbital Battle Station",
+                "manufacturer": "Imperial Department of Military Research, Sienar Fleet Systems",
+                "cost_in_credits": 1000000000000,
+                "length": 120000,
+                "max_atmosphering_speed": 0,
+                "crew": 342953,
+                "passengers": 843342,
+                "cargo_capacity": 1000000000000,
+                "consumables": "3 years",
+                "hyperdrive_rating": 4.0,
+                "MGLT": 10,
+                "starship_class": "Deep Space Mobile Battlestation",
+                "color":"https://imgur.com/9THk4ei.png",
+                "black":"https://i.imgur.com/YNzfJZP.png"         
+            }
+        },
+        {
+            "model": "main_app.Spacecraft",
+            "fields": {
+                "name": "Millennium Falcon",
+                "model": "YT-1300 light freighter",
+                "manufacturer": "Corellian Engineering Corporation",
+                "cost_in_credits": 100000,
+                "length": 34.37,
+                "max_atmosphering_speed": 1050,
+                "crew": 4,
+                "passengers": 6,
+                "cargo_capacity": 100000,
+                "consumables": "2 months",
+                "hyperdrive_rating": 0.5,
+                "MGLT": 75,
+                "starship_class": "Light freighter",
+                "color":"https://imgur.com/dh3HLti.png",
+                "black":"https://i.imgur.com/AltckHH.png"
+            }  
+        },
+        {
+            "model": "main_app.Spacecraft",
+            "fields": {
+                "name": "Y-wing",
+                "model": "BTL Y-wing",
+                "manufacturer": "Koensayr Manufacturing",
+                "cost_in_credits": 134999,
+                "length": 14,
+                "max_atmosphering_speed": 1000,
+                "crew": 2,
+                "passengers": 0,
+                "cargo_capacity": 110,
+                "consumables": "1 week",
+                "hyperdrive_rating": 1.0,
+                "MGLT": 80,
+                "starship_class": "assault starfighter",
+                "color":"https://imgur.com/PZZbThR.png",
+                "black":"https://i.imgur.com/WTnTOZG.png"
+            }
+        },
+        {
+            "model": "main_app.Spacecraft",
+            "fields": {
+                "name": "X-wing",
+                "model": "T-65 X-wing",
+                "manufacturer": "Incom Corporation",
+                "cost_in_credits": 149999,
+                "length": 12.5,
+                "max_atmosphering_speed": 1050,
+                "crew": 1,
+                "passengers": 0,
+                "cargo_capacity": 110,
+                "consumables": "1 week",
+                "hyperdrive_rating": 1.0,
+                "MGLT": 100,
+                "starship_class": "Starfighter",
+                "color":"https://imgur.com/j7somq7.png",
+                "black":"https://i.imgur.com/UvOHx3J.png"
+            }
+        },
+        {
+            "model": "main_app.Spacecraft",
+            "fields": {
+                "name": "TIE Advanced x1",
+                "model": "Twin Ion Engine Advanced x1",
+                "manufacturer": "Sienar Fleet Systems",
+                "cost_in_credits": 0,
+                "length": 9.2,
+                "max_atmosphering_speed": 1200,
+                "crew": 1,
+                "passengers": 0,
+                "cargo_capacity": 150,
+                "consumables": "5 days",
+                "hyperdrive_rating": 1.0,
+                "MGLT": 105,
+                "starship_class": "Starfighter",
+                "color":"https://imgur.com/F8LbRTY.png",
+                "black":"https://i.imgur.com/ZKfgJp1.png"
+            }
+        },
+        {
+            "model": "main_app.Spacecraft",
+            "fields": {
+                "name": "Executor",
+                "model": "Executor-class star dreadnought",
+                "manufacturer": "Kuat Drive Yards, Fondor Shipyards",
+                "cost_in_credits": "1143350000",
+                "length": 19000,
+                "max_atmosphering_speed": 0,
+                "crew": 279144,
+                "passengers": 38000,
+                "cargo_capacity": 250000000,
+                "consumables": "6 years",
+                "hyperdrive_rating": 2.0,
+                "MGLT": 40,
+                "starship_class": "Star dreadnought",
+                "color":"https://imgur.com/6EcU2sw.png",
+                "black":"https://i.imgur.com/jo6px0W.png"
+            }
+        },
+        {
+            "model": "main_app.Spacecraft",
+            "fields": {
+                "name": "Rebel transport",
+                "model": "GR-75 medium transport",
+                "manufacturer": "Gallofree Yards, Inc.",
+                "cost_in_credits": 0,
+                "length": 90,
+                "max_atmosphering_speed": 650,
+                "crew": 6,
+                "passengers": 90,
+                "cargo_capacity": 19000000,
+                "consumables": "6 months",
+                "hyperdrive_rating": 4.0,
+                "MGLT": 20,
+                "starship_class": "Medium transport",
+                "color":"https://imgur.com/PbEW9fE.png",
+                "black":"https://imgur.com/zEo4mVH.png"
+            }
+        },
+        {
+            "model": "main_app.Spacecraft",
+            "fields": {
+                "name": "Sand Crawler",
+                "model": "Digger Crawler",
+                "manufacturer": "Corellia Mining Corporation",
+                "cost_in_credits": 150000,
+                "length": 36.8,
+                "max_atmosphering_speed": "30",
+                "crew": 46,
+                "passengers": 30,
+                "cargo_capacity": 50000,
+                "consumables": "2 months",
+                "hyperdrive_rating": 4.0,
+                "MGLT": 20,
+                "starship_class": "wheeled",
+                "color":"https://imgur.com/9gyfhBa.png",
+                "black":"https://imgur.com/oPpG3Hj.png"
+            }
+        },
+        {
+            "model": "main_app.Spacecraft",
+            "fields": {
+                "name": "T-16 skyhopper",
+                "model": "T-16 skyhopper",
+                "manufacturer": "Incom Corporation",
+                "cost_in_credits": 14500,
+                "length": 10.4,
+                "max_atmosphering_speed": 1200,
+                "crew": 1,
+                "passengers": 1,
+                "cargo_capacity": 50,
+                "consumables": "0",
+                "hyperdrive_rating": 4.0,
+                "MGLT": 20,
+                "starship_class": "repulsorcraft",
+                "color":"https://imgur.com/EYR4odP.png",
+                "black":"https://imgur.com/ujrByOC.png"
+            }
+        },
+        {
+            "model": "main_app.Spacecraft",
+            "fields": {
+                "name": "X-34 landspeeder",
+                "model": "X-34 landspeeder",
+                "manufacturer": "SoroSuub Corporation",
+                "cost_in_credits": 10550,
+                "length": 3.4 ,
+                "max_atmosphering_speed": 250,
+                "crew": 1,
+                "passengers": 1,
+                "cargo_capacity": 5,
+                "consumables": "unknown",
+                "hyperdrive_rating": 4.0,
+                "MGLT": 20,
+                "starship_class": "repulsorcraft",
+                "color":"https://imgur.com/5jv2ivd.png",
+                "black":"https://imgur.com/kBF35nE.png"
+            }
+        },
+        {
+            "model": "main_app.Spacecraft",
+            "fields": {
+                "name": "TIE/LN starfighter",
+                "model": "Twin Ion Engine/Ln Starfighter",
+                "manufacturer": "Sienar Fleet Systems",
+                "cost_in_credits": 0,
+                "length": 6.4,
+                "max_atmosphering_speed": 1200,
+                "crew": 1,
+                "passengers": 0,
+                "cargo_capacity": 65,
+                "consumables": "2 days",
+                "hyperdrive_rating": 4.0,
+                "MGLT": 20,
+                "starship_class": "starfighter",
+                "color":"https://imgur.com/Okk9sKw.png",
+                "black":"https://imgur.com/mrk2lEE.png"
+            }
+        },
+        {
+            "model": "main_app.Spacecraft",
+            "fields": {
+                "name": "Snowspeeder",
+                "model": "t-47 airspeeder",
+                "manufacturer": "Incom corporation",
+                "cost_in_credits": 0,
+                "length": 4.5,
+                "max_atmosphering_speed": 650,
+                "crew": 2,
+                "passengers": 0,
+                "cargo_capacity": 10,
+                "consumables": "none",
+                "hyperdrive_rating": 4.0,
+                "MGLT": 20,
+                "starship_class": "airspeeder",
+                "color":"https://imgur.com/BqRBHhv.png",
+                "black":"https://i.imgur.com/nuP9eRm.png"
+            }
+        },
+        {
+            "model": "main_app.Spacecraft",
+            "fields": {
+                "name": "TIE bomber",
+                "model": "TIE/sa bomber",
+                "manufacturer": "Sienar Fleet Systems",
+                "cost_in_credits": 0,
+                "length": 7.8,
+                "max_atmosphering_speed": 850,
+                "crew": 1,
+                "passengers": 0,
+                "cargo_capacity": 0,
+                "consumables": "2 days",
+                "hyperdrive_rating": 4.0,
+                "MGLT": 20,
+                "starship_class": "space/planetary bomber",
+                "color":"https://imgur.com/t0vNfhH.png",
+                "black":"https://i.imgur.com/cgB23Za.png"
+            }
+        },
+        {
+            "model": "main_app.Spacecraft",
+            "fields": {
+                "name": "AT-AT",
+                "model": "All Terrain Armored Transport",
+                "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+                "cost_in_credits": 0,
+                "length": 20,
+                "max_atmosphering_speed": 60,
+                "crew": 5,
+                "passengers": 40,
+                "cargo_capacity": 1000,
+                "consumables": "0",
+                "hyperdrive_rating": 4.0,
+                "MGLT": 20,
+                "starship_class": "assault walker",
+                "color":"https://imgur.com/pJn8ST1.png",
+                "black":"https://i.imgur.com/0WVKatU.png"
+            }
+        },
+        {
+            "model": "main_app.Spacecraft",
+            "fields": {
+                "name": "AT-ST",
+                "model": "All Terrain Scout Transport",
+                "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+                "cost_in_credits": 0,
+                "length": 2,
+                "max_atmosphering_speed": 90,
+                "crew": 2,
+                "passengers": 0,
+                "cargo_capacity": 200,
+                "consumables": "0",
+                "hyperdrive_rating": 4.0,
+                "MGLT": 20,
+                "starship_class": "Walker",
+                "color":"https://imgur.com/lH6QAms.png",
+                "black":"https://i.imgur.com/08ogdOe.png"
+            }
+        },
+        {
+            "model": "main_app.Spacecraft",
+            "fields": {
+                "name": "Storm IV Twin-Pod cloud car",
+                "model": "Storm IV Twin-Pod",
+                "manufacturer": "Bespin Motors",
+                "cost_in_credits": 75000,
+                "length": 7,
+                "max_atmosphering_speed": 1500,
+                "crew": 2,
+                "passengers": 0,
+                "cargo_capacity": 10,
+                "consumables": "1 day",
+                "hyperdrive_rating": 4.0,
+                "MGLT": 20,
+                "starship_class": "Repulsorcraft",
+                "color":"https://imgur.com/ptD9c2M.png",
+                "black":"https://i.imgur.com/fzAjhPw.png"
+            }
+        },
+        {
+            "model": "main_app.Spacecraft",
+            "fields": {
+                "name": "Sail Barge",
+                "model": "Modified Luxury Sail Barge",
+                "manufacturer": "Ubrikkian Industries Custom Vehicle Division",
+                "cost_in_credits": 285000,
+                "length": 30,
+                "max_atmosphering_speed": 100,
+                "crew": 26,
+                "passengers": 500,
+                "cargo_capacity": 2000000,
+                "consumables": "Live food tanks",
+                "hyperdrive_rating": 4.0,
+                "MGLT": 20,
+                "starship_class": "Sail Barge",
+                "color": "https://imgur.com/Si4HKZf.png",
+                "black": "https://i.imgur.com/m8OdUOJ.png"
+            }
+        }
+]

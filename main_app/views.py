@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .models import Craft, Favorite, Photo, Badge, Image
+from .models import Craft, Favorite, Photo, Badge, Spacecraft
 from .forms import CraftForm
 from django.views.generic import ListView, UpdateView, DeleteView, DetailView
 import requests
@@ -41,31 +41,15 @@ def user_index(request):
 
 @login_required
 def search(request):
-    images = Image.objects.all()
-    response = requests.get('https://swapi.dev/api/starships')
-    results = response.json()
-    starships = results['results']
-    for idx,val in enumerate(starships):
-        val['color'] = images[idx].color
-        val['black'] = images[idx].black
-    response2 = requests.get('https://swapi.dev/api/vehicles')
-    results2 = response2.json()
-    vehicles = results2['results']
-    for idx,val in enumerate(vehicles):
-        val['color'] = images[idx+10].color
-        val['black'] = images[idx+10].black
-    starships = starships + vehicles
+    starships = Spacecraft.objects.all()
     return render(request, 'spacecrafts/search.html', { 'starships': starships })
 
 @login_required
-def form(request):
-    color = request.POST["color"]
-    black = request.POST["black"]
-    response = requests.get(request.POST["url"])
-    results = response.json()
-    craft_form = CraftForm(results)
+def form(request, craft_id):
+    craft = Spacecraft.objects.get(id=craft_id)
+    craft_form = CraftForm(instance=craft)
     badges = Badge.objects.all()
-    return render(request, 'spacecrafts/form.html', { 'craft_form' : craft_form , 'url' : results['url'], 'badges' : badges, 'color' : color, 'black' : black}) #end point at url in request.post
+    return render(request, 'spacecrafts/form.html', { 'craft_form' : craft_form , 'badges' : badges, 'black': craft.black, 'color': craft.color}) #end point at url in request.post
 
 @login_required
 def create(request):
@@ -73,7 +57,6 @@ def create(request):
     if form.is_valid():
         instance = form.save(commit=False)
         instance.user = request.user
-        instance.url = request.POST['url']
         instance.black = request.POST['black']
         instance.color = request.POST['color']
         instance.save()

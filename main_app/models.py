@@ -27,9 +27,7 @@ class Craft(models.Model):
     name = models.CharField(max_length=100)
     passengers = models.IntegerField()
     hyperdrive_rating = models.FloatField()
-    url = models.CharField(max_length=100, default=None)
     # may or may not exist
-    vehicle_class = models.CharField(max_length=100)
     starship_class = models.CharField(max_length=100)
     MGLT = models.CharField(max_length=100)
     # own stuff
@@ -77,6 +75,19 @@ class Photo(models.Model):
     def __str__(self):
         return f"Photo for craft_id: {self.craft_id} @{self.url}"
 
-class Image(models.Model):
+class Spacecraft(models.Model):
+    cargo_capacity = models.BigIntegerField()
+    consumables = models.CharField(max_length=100)
+    cost_in_credits = models.BigIntegerField()
+    crew = models.IntegerField()
+    length = models.DecimalField(decimal_places=10, max_digits=20)
+    manufacturer = models.CharField(max_length=500)
+    max_atmosphering_speed = models.IntegerField()
+    model = models.CharField(max_length=100)
+    name = models.CharField(max_length=100)
+    passengers = models.IntegerField()
+    hyperdrive_rating = models.FloatField()
+    MGLT = models.IntegerField()
+    starship_class = models.CharField(max_length=100)
     color = models.CharField(max_length=200)
     black = models.CharField(max_length=200)

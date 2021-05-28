@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'spacecrafts.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'spacecrafts',
+        'NAME': 'spacecrafts_',
     }
 }
 
